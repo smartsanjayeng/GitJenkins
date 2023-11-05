@@ -18,7 +18,9 @@ public class GitJenkinsIntegrationApplication implements CommandLineRunner{
 	
 	@Override
 	public void run(String... args) throws Exception {
-		log.info("CommandLineRunner run method Started......")
+		log.info("CommandLineRunner run method Started......");
+		log.info("Length of Argument of CommandLineRunner......"+args.length);
+		log.info("CommandLineRunner run method Ended......");
 		
 	}
 
